@@ -27,7 +27,7 @@ BuildRequires:	flex
 BuildRequires:	gcc
 BuildRequires:	libpcap-devel
 BuildRequires:	make
-BuildRequires:	rrdtool-devel
+#BuildRequires:	rrdtool-devel
 BuildRequires:	sed
 
 Requires: nfdump-libs = %{version}-%{release}
@@ -62,6 +62,7 @@ Contains libraries used by NFDUMP utilities
 #	' sysconfig.nfcapd sysconfig.sfcapd
 
 %build
+./autogen.sh
 %configure \
     --enable-nsel \
     --enable-nfprofile \
