@@ -14,7 +14,7 @@ License: GPLv2+ and BSD
 Group: Applications/System
 URL: https://github.com/phaag/nfdump
 
-Source0: https://github.com/phaag/%{name}/archive/nfdump-%{version}.tar.gz
+Source0: https://github.com/phaag/%{name}/archive/nfdump-%{version}.tar.bz2
 #Source1: rc.nfcapd
 #Source2: sysconfig.nfcapd
 #Source3: rc.sfcapd
