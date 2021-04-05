@@ -1,0 +1,22 @@
+<services>
+
+  <service name="tar_scm">
+    <param name="url">https://github.com/phaag/nfdump.git</param>
+    <param name="scm">git</param>
+    <param name="revision">v1.6.22</param>
+    <param name="version">1.6.22</param>
+    <param name="exclude">.git</param>
+  </service> 
+
+  <service name="recompress">
+    <param name="file">*.tar</param>
+    <param name="compression">bz2</param>
+  </service>
+
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/gsfjohnson/build-opensuse-nfdump/master/nfdump.spec</param>
+  </service>
+
+</services>
